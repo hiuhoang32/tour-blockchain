@@ -1,0 +1,135 @@
+/* Basic styling for the pages */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Match the header text color */
+    font-weight: bold;
+}
+
+nav a.active {
+    color: #007bff; /* Change the color for the active link */
+}
+
+main {
+    padding: 20px 0;
+}
+
+.register {
+    /* Add a border around the form */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    /* Align the form to the middle */
+    margin: 40px auto;
+    width: 50%; /* adjust the width to your liking */
+    text-align: center;
+  }
+
+  .register label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .register input[type="text"], .register input[type="email"], .register input[type="password"], .register input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .register input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .register input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+.tour-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tour {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tour img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tour-details {
+    padding: 20px;
+}
+
+#transaction-history {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#transaction-history th, #transaction-history td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
