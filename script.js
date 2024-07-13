@@ -1,3 +1,4 @@
+
 // Function to load tour details
 function loadTourDetails(tourId) {
     const tourDetailsDiv = document.getElementById("tour-details");
@@ -165,7 +166,7 @@ function loadTourDetails(tourId) {
             <select id="room">
                 ${tour.hotelOptions[0].rooms.map(room => `<option value="${room}">${room}</option>`).join('')}
             </select>
-            <a href="/payment.html">
+            <a href="payment.html">
                 <button id="book-tour">Book Tour</button>
             </a>
             
