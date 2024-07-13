@@ -165,7 +165,10 @@ function loadTourDetails(tourId) {
             <select id="room">
                 ${tour.hotelOptions[0].rooms.map(room => `<option value="${room}">${room}</option>`).join('')}
             </select>
-            <button id="book-tour">Book Tour</button>
+            <a href="/payment.html">
+                <button id="book-tour">Book Tour</button>
+            </a>
+            
         `;
     } else {
         tourDetailsDiv.innerHTML = "<p>Tour not found.</p>";
